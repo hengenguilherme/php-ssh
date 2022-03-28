@@ -2,6 +2,15 @@
 
     Gerenciador de conexões SSH em PHP utilizando a lib SSH2
 
+## Instalação
+
+Para instalar esta dependência basta executar o comando abaixo:
+
+```shell
+composer require hengui/php-ssh
+```
+
+
 ## Utilização
 
 Para user este gerenciador basta seguir o exemplo abaixo:
@@ -38,4 +47,4 @@ $ssh->disconnect();
 ```
 ## Requisitos
 - Necessário PHP 7.0 ou superior
-- Necessário Extensão php-ssh2
+- Necessário a lib php-ssh2
