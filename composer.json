@@ -1,0 +1,20 @@
+{
+  "name" : "hengui/php-ssh",
+  "description": "Gerenciador de conexões SSH em PHP",
+  "type": "library",
+  "license": "GPL-3.0-or-later",
+  "authors": [
+    {
+      "name":"Guilherme Hengen",
+      "email": "hengui@protonmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Hengui\\SecureShell\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.0"
+  }
+}
